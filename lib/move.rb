@@ -12,7 +12,7 @@ def input_to_index(user_input)
   converted_input = user_input.to_i - 1
 end
 def move(board, converted_input, char = "X")
-  baord[converted_input] = char
+  baord[converted_input]
 end
 
   
